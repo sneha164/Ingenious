@@ -1,0 +1,134 @@
+<section class="user-crud">
+
+  <div class="navbar">
+    <div class=" ing-sidenav">
+      <div class=" ing-logo-container">
+        <div class=" ing-image">
+          <img src="assets/images/Vector.svg">
+        </div>
+        <div class=" ing-menu">
+          <ul class="ing-sidenav-nav">
+            <li class="ing-sidenav-nav-item" >
+              <a   class="ing-sidenav-nav-link">
+                    <span class="material-symbols-outlined">
+flex_wrap
+</span>
+              </a>
+            </li>
+            <li class="ing-sidenav-nav-item" >
+              <a   class="ing-sidenav-nav-link">
+            <span class="material-symbols-outlined">
+no_luggage
+</span>
+              </a>
+            </li>
+            <li class="ing-sidenav-nav-item" >
+              <a   class="ing-sidenav-nav-link">
+            <span class="material-symbols-outlined">
+swap_horizontal_circle
+</span>
+              </a>
+            </li>
+            <li class="ing-sidenav-nav-item" >
+              <a   class="ing-sidenav-nav-link">
+                    <span class="material-symbols-outlined">
+                        group
+                    </span>
+              </a>
+            </li>
+
+            <li class="ing-sidenav-nav-item" >
+              <a   class="ing-sidenav-nav-link">
+            <span class="material-symbols-outlined">
+cloud_upload
+</span>
+              </a>
+            </li>
+            <li class="ing-sidenav-nav-item" >
+              <a   class="ing-sidenav-nav-link">
+            <span class="material-symbols-outlined">
+event_list
+</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="ing-log-out">
+          <hr>
+          <a  class="ing-sidenav-nav-link">
+            <span class="material-symbols-outlined">
+                logout
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="hero">
+    <div class="top-nav">
+      <div class="title">
+        <h1>Welcome Prashant KC! <span>Teacher Admin</span></h1>
+      </div>
+      <div class="icons">
+  <span class="material-symbols-outlined">
+search
+</span>
+        <span class="material-symbols-outlined">
+notifications_active
+</span>
+        <div class="dropdown">
+          <img src="assets/images/admin.svg">
+          <span class="material-symbols-outlined">
+arrow_drop_down
+</span>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="user">
+      <div class="title">
+        <p class="details">User Details</p>
+        <p class="user">Add User</p>
+      </div>
+      <div class="line">
+        <span></span>
+      </div>
+
+      <div class="card">
+        <p-table  [tableStyle]="{ 'min-width': '50rem' }">
+          <ng-template pTemplate="header" style="background-color: #467863;">
+            <tr>
+              <th>S.No.</th>
+              <th>Teacher Name</th>
+              <th>Role</th>
+              <th>Contact Number</th>
+              <th> Email Address</th>
+              <th>Address</th>
+              <th>Action Center</th>
+            </tr>
+          </ng-template>
+          <ng-template pTemplate="body" >
+            <tr>
+              <td>01</td>
+              <td>Sneha Sapkota</td>
+              <td>sneha.sapkota&#64;gmail.com</td>
+              <td>9840321654</td>
+              <td>Setopool</td>
+              <td>MScIT-Computer Networking & Cyber Security</td>
+              <td>sneha.sapkota&#64;islingtoncollege.edu.np</td>
+              <td>Module Leader</td>
+              <td>9840321654</td>
+              <td><span class="material-symbols-outlined">
+edit_square
+</span>
+                <span class="material-symbols-outlined">
+delete
+</span></td>
+            </tr>
+          </ng-template>
+        </p-table>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,41 @@
+.error{
+   height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 26px;
+}
+h1{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.36px;
+  text-align: center;
+color: #404B5A;
+}
+p{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  text-align: center;
+  color: #6B7280;
+
+}
+bottom{
+  text-align: center;
+}
+button{
+  padding: calc(15px + (20 - 15) * ((100vw - 1024px) / (1920 - 1024)));
+  border-radius: 11px;
+  background-color: #009854;
+  color: white;
+  font-size: calc(16px + (24 - 16) * ((100vw - 1024px) / (1920 - 1024)));
+  font-weight: 600;
+  border: none;
+  margin-top: 40px;
+}
