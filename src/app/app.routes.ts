@@ -12,11 +12,12 @@ import {PopupMessageComponent} from "./popup-message/popup-message.component";
 import {TeacherDetailsComponent} from "./teacher-details/teacher-details.component";
 import {UserCrudComponent} from "./user-crud/user-crud.component";
 import {UserProfileComponent} from "./user-profile/user-profile.component";
+import {TeacherCrudComponent} from "./teacher-crud/teacher-crud.component";
 
 export const routes: Routes = [
   { path:"login", component:LoginComponent, title:"Login"},
-  { path:"add-teacher", component:AddTeacherComponent, title:"Add User"},
-  { path:"add-teacher", component:AddUserComponent, title:"Add User"},
+  { path:"add-teacher", component:AddTeacherComponent, title:"Add Teacher"},
+  { path:"add-user", component:AddUserComponent, title:"Add User"},
   { path:"confirm-password", component:ConfirmPasswordComponent, title:"Confirm Password"},
   { path:"dashboard", component:DashboardComponent, title:"Dashboard"},
   { path:"error", component:ErrorComponent, title:"Error"},
@@ -26,5 +27,6 @@ export const routes: Routes = [
   { path:"popup-message", component:PopupMessageComponent, title:"Popup message"},
   { path:"teacher-details", component:TeacherDetailsComponent, title:"Teacher Details"},
   { path:"user-crud", component:UserCrudComponent, title:"User CRUD"},
+  { path:"teacher-crud", component:TeacherCrudComponent, title:"Teacher CRUD"},
   { path:"user-profile", component:UserProfileComponent, title:"User Profile"},
 ];
